@@ -1,0 +1,258 @@
+.letter {
+  margin-left: 315px;
+}
+
+.tel {
+  margin-left: 45px;
+}
+
+.img {
+  width: 270px;
+  height: 260px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container_icon {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  top: 100px;
+  left: 70px;
+}
+
+header {
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.Web {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2196F3;
+}
+
+.studio {
+  color: black;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.link {
+  display: flex;
+  margin-left: 93px;
+  color: #2196F3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.text_note_two {
+  color: #212121;
+}
+
+.info {
+  margin-left: 14px;
+  letter-spacing: 0.02em;
+}
+
+.container_footer {
+  width: 1600px;
+  height: 252px;
+  background: #2f303a;
+  margin-top: 50px;
+  display: flex;
+}
+
+.Web_text {
+  position: relative;
+  margin-left: 216px;
+  top: 40px;
+}
+
+.link_text {
+  position: relative;
+  top: 30px;
+  left: 215px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+}
+
+.container_text {
+  margin-left: 70px;
+}
+
+.web {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2196f3;
+}
+
+.studio {
+  color: black;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.text_join {
+  position: relative;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-left: 100px;
+  top: 72px;
+  color: white;
+}
+
+.brend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #444141;
+  width: 44px;
+  height: 44px;
+}
+
+.join {
+  display: flex;
+}
+
+.background {
+  position: relative;
+  top: 75px;
+  left: 70px;
+}
+
+input {
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1490196078);
+  left: 95px;
+  top: 75px;
+  width: 358px;
+  height: 50px;
+}
+
+button {
+  position: relative;
+  left: 100px;
+  top: 75px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 1600px;
+  height: 708px;
+  background: #f5f4fa;
+}
+
+.f {
+  width: 270px;
+  height: 428px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1411764706);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275);
+  position: relative;
+  left: -90px;
+  margin-left: 30px;
+  top: 186px;
+}
+
+.img {
+  width: 270px;
+  height: 260px;
+}
+
+.teem {
+  position: relative;
+  left: 668px;
+  top: 70px;
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.text {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.design-text {
+  color: #757575;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.text_street {
+  position: relative;
+  top: 55px;
+  left: 215px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: white;
+}
+
+.info {
+  color: #757575;
+}

@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    align-items: center;
+    margin-left:93px;
+  }
+  .Web { 
+    font-size: 26px;
+     font-weight: 700;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     text-align: left;
+     color:#2196F3 ; 
+    }
+   .studio {
+    color: black;
+     font-family: Raleway;
+     font-size: 26px;
+     font-weight: 700;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     text-align: left;
+    }
+    .link {
+        display: flex;
+        margin-left: 93px;
+        color: #2196F3;
+        font-size: 14px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+       letter-spacing: 0.28px;
+     
+        }
+        .text_note_two {
+            color: #212121;
+           }
+           .info {
+            margin-left: 14px;
+           letter-spacing: 0.02em;
+           
+          }
