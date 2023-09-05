@@ -1,0 +1,12 @@
+
+
+@import 'components/logo';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/section.scss';
+@import 'utils/colors';
+
+.info {
+    color: $mainColor;
+}
+
