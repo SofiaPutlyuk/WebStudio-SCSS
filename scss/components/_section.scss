@@ -65,4 +65,44 @@ letter-spacing: 0.03em;
 text-align: left;
 color: white;
   }
+  /*HOMEWORK30*/
+  .main_section {
+    display: flex;
+    width: 1600px;
+    height: 708px;
+    background: #f5f4fa;
+  &__title {
+    position: relative;
+    left: 668px;
+    top:70px;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.08px;
+  }
+}
+.navigation_section {
+    width: 270px;
+    height: 428px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1411764706);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275);
   
+    position: relative;
+    left: -90px;
+    margin-left: 30px;
+    top: 186px;
+  &__text {
+   
+text-align: center;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.48px;
+  }
+  &__design {
+   text-align: center;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: 0.48px;
+  }
+}

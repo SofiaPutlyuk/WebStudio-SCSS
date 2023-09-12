@@ -41,3 +41,38 @@ header {
            letter-spacing: 0.02em;
            
           }
+          /*HOMEWORK30*/
+          .main_header {
+   
+            width: 1600px;
+            height: 80px;
+         }
+        .navigation_item{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          &__special {
+            font-family: Raleway;
+            letter-spacing: 0.03em;
+            text-align: left;
+            list-style: none;
+             }
+       &__list 
+         {  list-style: none;
+           font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.28px;
+            margin-left: 93px;
+            }
+        }
+span {
+    color: #000;
+}
+.navigation_item {
+&__notice {
+list-style: none;
+letter-spacing: 0.02em;
+text-align: left;
+margin-left: 12px;
+ }
+}

@@ -11,7 +11,7 @@
   height: 260px;
 }
 
-.icon {
+.navigation_icon {
   display: flex;
   justify-content: space-evenly;
 }
@@ -71,6 +71,42 @@ header {
   letter-spacing: 0.02em;
 }
 
+/*HOMEWORK30*/
+.main_header {
+  width: 1600px;
+  height: 80px;
+}
+
+.navigation_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation_item__special {
+  font-family: Raleway;
+  letter-spacing: 0.03em;
+  text-align: left;
+  list-style: none;
+}
+.navigation_item__list {
+  list-style: none;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-left: 93px;
+}
+
+span {
+  color: #000;
+}
+
+.navigation_item__notice {
+  list-style: none;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-left: 12px;
+}
+
 .container_footer {
   width: 1600px;
   height: 252px;
@@ -85,7 +121,7 @@ header {
   top: 40px;
 }
 
-.link_text {
+.navigation_link {
   position: relative;
   top: 30px;
   left: 215px;
@@ -150,8 +186,6 @@ header {
 
 .background {
   position: relative;
-  top: 75px;
-  left: 70px;
 }
 
 input {
@@ -178,6 +212,60 @@ button {
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
+}
+
+/*Homework30*/
+.navigation_footer--icon {
+  width: 1600px;
+  height: 252px;
+  background: #2f303a;
+  margin-top: 50px;
+  display: flex;
+}
+
+.navigation_text {
+  position: relative;
+  margin-left: 216px;
+  top: 40px;
+}
+.navigation_text__web {
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.navigation_text__studio {
+  color: black;
+}
+
+.navigation_notice {
+  margin-left: 70px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: white;
+  margin-top: 70px;
+}
+.navigation_notice__join {
+  display: flex;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 40px;
+  color: white;
+}
+
+.brend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #444141;
+  width: 44px;
+  height: 44px;
+}
+.brend__background {
+  position: relative;
+  top: 75px;
+  left: 70px;
 }
 
 .container {
@@ -253,6 +341,111 @@ button {
   color: white;
 }
 
+/*HOMEWORK30*/
+.main_section {
+  display: flex;
+  width: 1600px;
+  height: 708px;
+  background: #f5f4fa;
+}
+.main_section__title {
+  position: relative;
+  left: 668px;
+  top: 70px;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.navigation_section {
+  width: 270px;
+  height: 428px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1411764706);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275);
+  position: relative;
+  left: -90px;
+  margin-left: 30px;
+  top: 186px;
+}
+.navigation_section__text {
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.navigation_section__design {
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
 .info {
   color: #757575;
+}
+
+.navigation_item__special {
+  color: #2196F3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.navigation_item__list {
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navigation_item__notice {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #757575;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.main_section__title {
+  font-family: "Roboto";
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.navigation_section__text {
+  color: #212121;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: "Roboto";
+}
+
+.navigation_section__design {
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navigation_text__web {
+  color: #2196F3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.navigation_notice {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.navigation_notice__join {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }

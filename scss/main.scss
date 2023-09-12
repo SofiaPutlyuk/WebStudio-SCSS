@@ -5,8 +5,64 @@
 @import 'components/footer';
 @import 'components/section.scss';
 @import 'utils/colors';
-
+@import 'utils/variables.scss';
 .info {
     color: $mainColor;
 }
+.navigation_item__special {
+ color: $basicColor;
+ font-weight: $secondaryWeight;
+ font-size: $basicSize;
+ line-height: $basicline;
+}
+.navigation_item__list {
+    color: $primaryColor;
+    font-family: $primaryFont;
+    font-size: $primarySize;
+    font-weight: $primaryWeight;
+}
+.navigation_item__notice {
+font-family: $primaryFont ;
+font-size: $primarySize;
+color: $secondaryColor;
+font-weight: $primaryWeight;
+line-height: $secondaryline;
+}
+.main_section__title {
+    font-family: $primaryFont ;
+    color: $primaryColor;
+    font-weight: $secondaryWeight;
+    font-size: $plainSize;
+}
+.navigation_section__text {
+    color: $primaryColor;
+    font-family: $primaryFont;
+    font-size: $secondarySize;
+    font-weight: $primaryFont;
 
+}
+.navigation_section__design {
+color: $secondaryColor;
+font-family: $primaryFont;
+font-size: $secondarySize;
+font-weight: $plainWeight;
+
+}
+.navigation_text__web {
+color: $basicColor;
+font-weight: $secondaryWeight;
+font-size: $basicSize;
+line-height: $basicline;
+}
+.navigation_notice {
+    font-family: $primaryFont;
+    font-size: $primarySize;
+    font-weight:$secondaryWeight ;
+    line-height: $secondaryline;
+}
+.navigation_notice__join {
+    font-family: $primaryFont;
+    font-weight: $secondaryWeight;
+    font-size: $primarySize;
+    line-height: $secondaryline;
+}
