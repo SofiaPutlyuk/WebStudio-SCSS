@@ -386,13 +386,12 @@ button {
   color: #757575;
 }
 
-.navigation_item__special {
+.navigation_item {
   color: #2196F3;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
-
 .navigation_item__list {
   color: #212121;
   font-family: "Roboto";
