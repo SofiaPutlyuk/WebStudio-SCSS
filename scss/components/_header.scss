@@ -47,7 +47,7 @@ header {
             width: 1600px;
             height: 80px;
          }
-        .navigation_item{
+        .navigation-item{
           display: flex;
           justify-content: space-around;
           align-items: center;
@@ -68,7 +68,7 @@ header {
 span {
     color: #000;
 }
-.navigation_item {
+.navigation-item {
 &__notice {
 list-style: none;
 letter-spacing: 0.02em;

@@ -3,13 +3,15 @@
 @import 'components/logo';
 @import 'components/header';
 @import 'components/footer';
-@import 'components/section.scss';
+@import 'components/section';
 @import 'utils/colors';
 @import 'utils/variables.scss';
+
+
 .info {
     color: $mainColor;
 }
-.navigation_item {
+.navigation-item {
  color: $basicColor;
  font-weight: $secondaryWeight;
  font-size: $basicSize;
@@ -22,7 +24,7 @@
     font-weight: $primaryWeight;
 }
 }
-.navigation_item__notice {
+.navigation-item__notice {
 font-family: $primaryFont ;
 font-size: $primarySize;
 color: $secondaryColor;
@@ -49,7 +51,7 @@ font-size: $secondarySize;
 font-weight: $plainWeight;
 
 }
-.navigation_text__web {
+.navigation_text {
 color: $basicColor;
 font-weight: $secondaryWeight;
 font-size: $basicSize;

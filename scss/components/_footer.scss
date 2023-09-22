@@ -97,59 +97,81 @@
     text-align: center;
   }
   /*Homework30*/
-  .navigation_footer--icon {
-    width: 1600px;
-    height: 252px;
-    background: #2f303a;
-    margin-top: 50px;
-    display: flex;
-  }
-  .navigation_text {
-    position: relative;
-    margin-left: 216px;
-    top: 40px;
-&__web {
+  .link_text 
+    .navigation_link {
+      position: relative;
+      top: 30px;
+      left: 215px;
+ 
+    .background {
+      position: relative;
   
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    
-}
-&__studio {
-    color: black;
-   
-}
-}
-.navigation_notice{
-    margin-left: 70px; 
+      top: 75px;
+      left: 70px;
   
-   letter-spacing: 0.03em;
-    text-align: left;
-     color: white;
-     margin-top: 70px; 
-    &__join {
-       display: flex;
-       
-        letter-spacing: 0.03em;
-        text-align: left;
-        margin-left: 60px;
-        margin-top: 40px;
-        color: white;
     }
-}
-.brend {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+    input {
+      position: relative;
+ 
+      line-height: 30px;
+      letter-spacing: 0.06em;
+      text-align: center;
+    }
+    }
+    /*Homework30*/
+    .navigation_footer {
+      width: 1600px;
+      height: 252px;
+      background: #2f303a;
+      margin-top: 50px;
+      display: flex;
+    }
+    .navigation_text {
+      position: relative;
+      margin-left: 216px;
+      top: 40px;
+ 
   
-    background-color: #444141;
-    width: 44px;
-    height: 44px;
-  &__background {
-    position: relative;
+      line-height: 31px;
+      letter-spacing: 0.03em;
+      text-align: left;
   
-    top: 75px;
-    left: 70px;
+  
+  &__studio {
+      color: black;
+  
   }
-}
+  }
+  .navigation_notice{
+      margin-left: 70px; 
+  
+     letter-spacing: 0.03em;
+      text-align: left;
+       color: white;
+       margin-top: 70px; 
+      &__join {
+         display: flex;
+  
+          letter-spacing: 0.03em;
+          text-align: left;
+          margin-left: 60px;
+          margin-top: 40px;
+          color: white;
+      }
+  }
+  .brend {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+  
+      background-color: #444141;
+      width: 44px;
+      height: 44px;
+    &__background {
+      position: relative;
+  
+      top: 75px;
+      left: 70px;
+    }
+  }

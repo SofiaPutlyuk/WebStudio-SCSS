@@ -77,18 +77,18 @@ header {
   height: 80px;
 }
 
-.navigation_item {
+.navigation-item {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.navigation_item__special {
+.navigation-item__special {
   font-family: Raleway;
   letter-spacing: 0.03em;
   text-align: left;
   list-style: none;
 }
-.navigation_item__list {
+.navigation-item__list {
   list-style: none;
   font-style: normal;
   line-height: normal;
@@ -100,7 +100,7 @@ span {
   color: #000;
 }
 
-.navigation_item__notice {
+.navigation-item__notice {
   list-style: none;
   letter-spacing: 0.02em;
   text-align: left;
@@ -215,7 +215,25 @@ button {
 }
 
 /*Homework30*/
-.navigation_footer--icon {
+.link_text .navigation_link {
+  position: relative;
+  top: 30px;
+  left: 215px;
+}
+.link_text .navigation_link .background {
+  position: relative;
+  top: 75px;
+  left: 70px;
+}
+.link_text .navigation_link input {
+  position: relative;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+/*Homework30*/
+.navigation_footer {
   width: 1600px;
   height: 252px;
   background: #2f303a;
@@ -227,8 +245,6 @@ button {
   position: relative;
   margin-left: 216px;
   top: 40px;
-}
-.navigation_text__web {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -386,20 +402,20 @@ button {
   color: #757575;
 }
 
-.navigation_item {
+.navigation-item {
   color: #2196F3;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
-.navigation_item__list {
+.navigation-item__list {
   color: #212121;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 500;
 }
 
-.navigation_item__notice {
+.navigation-item__notice {
   font-family: "Roboto";
   font-size: 14px;
   color: #757575;
@@ -428,7 +444,7 @@ button {
   font-weight: 400;
 }
 
-.navigation_text__web {
+.navigation_text {
   color: #2196F3;
   font-weight: 700;
   font-size: 26px;
