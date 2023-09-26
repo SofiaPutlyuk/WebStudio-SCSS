@@ -1,5 +1,5 @@
-
-
+@import 'utils/mixins';
+@import 'utils/placeholder';
 @import 'components/logo';
 @import 'components/header';
 @import 'components/footer';
@@ -69,3 +69,38 @@ line-height: $basicline;
     font-size: $primarySize;
     line-height: $secondaryline;
 }
+/*Homework31*/
+/*header*/
+.Web { 
+    font-size: 26px;
+     font-weight: 700;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     text-align: left;
+     color:#2196F3 ; 
+    }
+    .studio {
+        @extend .Web;
+        color: black;
+    }
+   /*section*/
+  
+   @mixin btn($bgColor) {
+   text-align: center;
+   font-family: Roboto;
+   font-size: 16px;
+font-style: normal;
+
+line-height: normal;
+letter-spacing: 0.48px;
+  }
+  .text {
+    @include btn (color #212121);
+   }
+  .text-design {
+    @include btn(color #757575);
+    font-weight: 400;
+  }
+  /*footer*/
+ 
+  

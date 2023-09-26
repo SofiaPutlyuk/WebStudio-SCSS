@@ -32,7 +32,7 @@ header {
   margin-left: 93px;
 }
 
-.Web {
+.Web, .studio {
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
@@ -464,3 +464,40 @@ button {
   font-size: 14px;
   line-height: 16px;
 }
+
+/*Homework31*/
+/*header*/
+.Web, .studio {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2196F3;
+}
+
+.studio {
+  color: black;
+}
+
+/*section*/
+.text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.text-design {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  font-weight: 400;
+}
+
+/*footer*/
