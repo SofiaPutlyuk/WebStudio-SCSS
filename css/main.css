@@ -1,3 +1,22 @@
+.text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.text-design {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  font-weight: 400;
+}
+
 .letter {
   margin-left: 315px;
 }
@@ -481,23 +500,4 @@ button {
 }
 
 /*section*/
-.text {
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.48px;
-}
-
-.text-design {
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.48px;
-  font-weight: 400;
-}
-
 /*footer*/

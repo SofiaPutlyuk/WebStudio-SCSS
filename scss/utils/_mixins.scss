@@ -1,3 +1,16 @@
-@mixin borderLine($borderValue) {
-    border: $borderValue;
-  }
+@mixin btn($bgColor) {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+ font-style: normal;
+ 
+ line-height: normal;
+ letter-spacing: 0.48px;
+   }
+   .text {
+     @include btn (color #212121);
+    }
+   .text-design {
+     @include btn(color #757575);
+     font-weight: 400;
+   }
