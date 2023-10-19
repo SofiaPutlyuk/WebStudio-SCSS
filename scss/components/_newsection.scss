@@ -1,0 +1,74 @@
+.text-work {
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+
+letter-spacing: 0.03em;
+margin-left: 550px;
+}
+.add {
+    position: relative;
+    background-color:  rgba(47, 48, 58, 0.80);
+    width: 370px;
+    height: 70px;
+    margin-left: 30px;
+    bottom: 90px;
+}
+.for-text {
+    position: absolute;
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.42px;
+      text-transform: uppercase;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate( -50%, -50%);
+}
+   
+  
+  
+.app {
+    margin-left: 30px;
+  }
+  
+  .container_for_app {
+    display: flex;
+  margin-left: 120px;
+  }
+  .text-clients {
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+margin-left: 650px;
+color: #212121;
+
+  }
+  .label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+   border: 1px solid rgba(175, 177, 184, 1);
+     
+  }
+  .label:hover {
+    border: 1px solid rgba(33, 150, 243, 1) ;
+  }
+  .label:hover path {
+    fill:  rgba(33, 150, 243, 1);
+    }
+  .container-clients {
+    display: flex;
+    margin-left: 320px;
+    justify-content: space-between;
+    width: 1170px;
+  }

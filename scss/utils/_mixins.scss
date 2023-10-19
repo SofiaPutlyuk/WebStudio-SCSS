@@ -14,3 +14,21 @@
      @include btn(color #757575);
      font-weight: 400;
    }
+   @mixin btg($bgColor) {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color:  #757575;
+width: 270px;
+height: 72px;
+   }
+   .text-idea {
+    @include btg (height 72px);
+   }
+    .text-idea__two {
+        @include btg (height 48px);
+       }
+   
