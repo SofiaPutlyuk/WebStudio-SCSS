@@ -150,6 +150,10 @@ span {
   margin-left: 12px;
 }
 
+.img-burger {
+  display: none;
+}
+
 .container_footer {
   width: 1600px;
   height: 252px;
@@ -347,8 +351,8 @@ button {
 }
 
 .img {
-  width: 450px;
-  height: 460px;
+  width: 270px;
+  height: 260px;
 }
 
 .teem {
@@ -420,23 +424,29 @@ button {
 .navigation_section {
   width: 270px;
   height: 428px;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1411764706);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
   position: relative;
+  left: -90px;
   margin-left: 30px;
+  top: 186px;
 }
 .navigation_section__text {
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
   text-align: center;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.48px;
 }
 .navigation_section__design {
   text-align: center;
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.48px;
+}
+
+.navigation_icon {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .main_banner {
@@ -572,6 +582,83 @@ button {
   margin-left: 320px;
   justify-content: space-between;
   width: 1170px;
+}
+
+.add {
+  position: relative;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  margin-left: 30px;
+  bottom: 90px;
+}
+
+.container_for_app {
+  display: flex;
+  margin-left: 120px;
+}
+
+.app {
+  margin-left: 30px;
+}
+
+.for-text {
+  position: absolute;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-work {
+  width: 366px;
+  height: 42px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-left: 550px;
+}
+
+.space-photo {
+  width: 450px;
+  height: 120px;
+}
+.space-photo__tablet {
+  width: 354px;
+  height: 120px;
+}
+
+.teem-photo {
+  width: 450px;
+  height: 460px;
+}
+.teem-photo__two {
+  width: 354px;
+  height: 374px;
+}
+
+.logo-photo {
+  width: 210px;
+  height: 92px;
+}
+.logo-photo__tablet {
+  width: 226px;
+  height: 92px;
+}
+
+.tags {
+  width: 354px;
+  height: 294px;
 }
 
 .info {
@@ -719,13 +806,15 @@ button {
     height: 2761px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 480px) {
   .navigation_section {
     margin-top: 200px;
-    bottom: 196px;
-    margin-left: 15px;
+    margin-left: -7px;
+    position: relative;
+    top: -196px;
   }
   .navigation_section__text {
     position: relative;
@@ -748,8 +837,8 @@ button {
 @media (max-width: 480px) {
   .main_section__title {
     position: relative;
-    left: 668px;
-    top: 70px;
+    left: 0px;
+    top: 0px;
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -784,11 +873,17 @@ button {
   }
 }
 @media (max-width: 480px) {
-  .navigation-item__list {
-    color: white;
+  .navigation-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
-  .navigation-item__special {
-    margin-left: -120px;
+  .navigation-item__list {
+    display: none;
+  }
+  .navigation-item__notice {
+    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -903,5 +998,55 @@ button {
     position: relative;
     bottom: 30px;
     left: -60px;
+  }
+}
+@media (max-width: 480px) {
+  .burger_menu {
+    display: flex;
+    flex-direction: column;
+    width: 24px;
+    height: 2.67px;
+    color: #212121;
+  }
+}
+@media (max-width: 480px) {
+  .img-burger {
+    display: flex;
+    position: relative;
+    top: 25px;
+    padding: 2px;
+    left: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .tel {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .letter {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .navigation-item__special {
+    position: relative;
+    left: -120px;
+  }
+}
+@media (max-width: 480px) {
+  .container_for_app {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .text-work {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .img {
+    width: 450px;
+    height: 460px;
   }
 }
