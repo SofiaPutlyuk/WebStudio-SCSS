@@ -20,3 +20,15 @@
         top: 100px;
         left: 70px;
       }
+      @media  (max-width:480px)
+{
+.tel{
+   display: none;
+}
+}
+@media  (max-width:480px)
+{
+.letter{
+   display: none;
+}
+}

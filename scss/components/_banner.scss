@@ -52,3 +52,43 @@ letter-spacing: 0.03em;
 text-align: left;
 color: #212121;
 }
+@media  (max-width:480px)
+  {
+  .main_banner {
+    background-image: url('../image/Header\ img.png');
+   
+  }
+  }
+  @media  (max-width:480px)
+  {
+  .main_banner {
+   width:480px;
+   height: 400px;
+  }
+  }
+  @media  (max-width:480px)
+{
+.text_effects{
+    color:white;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 360px;    
+    height: 84px;
+    left: 60px;
+    position: relative;
+    top:111px;
+}
+}
+@media  (max-width:480px)
+{
+.button_order{
+    position: relative;
+    left: 150px;
+    top: 120px;
+
+}
+}
