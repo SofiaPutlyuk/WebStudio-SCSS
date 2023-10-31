@@ -1,0 +1,98 @@
+@import 'utils/mixins';
+@import 'utils/placeholder';
+@import 'components/logo';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/section';
+@import 'components/banner';
+@import 'components/newsection';
+@import 'components/clients';
+@import 'utils/colors';
+@import 'utils/variables.scss';
+@import 'components/add';
+
+
+.info {
+    color: $mainColor;
+}
+.navigation-item {
+ color: $basicColor;
+ font-weight: $secondaryWeight;
+ font-size: $basicSize;
+ line-height: $basicline;
+
+&__list {
+    color: $primaryColor;
+    font-family: $primaryFont;
+    font-size: $primarySize;
+    font-weight: $primaryWeight;
+}
+}
+.navigation-item__notice {
+font-family: $primaryFont ;
+font-size: $primarySize;
+color: $secondaryColor;
+font-weight: $primaryWeight;
+line-height: $secondaryline;
+}
+.main_section__heading {
+    font-family: $primaryFont ;
+    color: $primaryColor;
+    font-weight: $secondaryWeight;
+    font-size: $plainSize;
+}
+.navigation_section__text {
+    color: $primaryColor;
+    font-family: $primaryFont;
+    font-size: $secondarySize;
+    font-weight: $primaryFont;
+
+}
+.navigation_section__design {
+color: $secondaryColor;
+font-family: $primaryFont;
+font-size: $secondarySize;
+font-weight: $plainWeight;
+
+}
+.navigation_text {
+color: $basicColor;
+font-weight: $secondaryWeight;
+font-size: $basicSize;
+line-height: $basicline;
+}
+.navigation_notice {
+    font-family: $primaryFont;
+    font-size: $primarySize;
+    font-weight:$secondaryWeight ;
+    line-height: $secondaryline;
+}
+.navigation_notice__join {
+    font-family: $primaryFont;
+    font-weight: $secondaryWeight;
+    font-size: $primarySize;
+    line-height: $secondaryline;
+}
+/*Homework31*/
+/*header*/
+.Web { 
+    font-size: 26px;
+     font-weight: 700;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     text-align: left;
+     color:#2196F3 ; 
+    }
+    .studio {
+        @extend .Web;
+        color: black;
+    }
+   /*section*/
+  
+  
+  /*footer*/
+ 
+  
+
+
+
